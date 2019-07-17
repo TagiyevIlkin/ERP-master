@@ -1,0 +1,190 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{813FD02C-134E-4A6A-83F0-CB44054B86F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B77D5277-772E-488B-8D35-A7D3B2C8BCB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{EDF98FEA-5262-4662-867F-6C99C059C30F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DistributedService", "DistributedService", "{2C0C5D23-6F7F-42F5-AE5E-32ED073121CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{1A17E2A8-83E8-48F2-946A-43F2B5EA6792}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.HRM.ORM", "ERP.HRM.ORM\ERP.HRM.ORM.csproj", "{8B59D060-14F2-4143-AFF9-7201FDE28F3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.Repositories", "ERP.Repositories\ERP.Repositories.csproj", "{0734B2BA-8699-4084-AEE1-F0C7603825DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.Repositories.Interfaces", "ERP.Repositories.Interfaces\ERP.Repositories.Interfaces.csproj", "{A85DB573-3C95-4BEA-BF61-396826DB443E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.HRM.Services", "ERP.HRM.Services\ERP.HRM.Services.csproj", "{093E44C4-E44B-4FCB-9B35-157AC2D182AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.HRM.DTO", "ERP.HRM.DTO\ERP.HRM.DTO.csproj", "{C596F5FF-8DE9-43D2-A676-E42CE513CC24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.HRM.WebAPI", "ERP.HRM.WebAPI\ERP.HRM.WebAPI.csproj", "{36B20F3F-23D8-40A9-A1B5-F13DDCC3F101}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.HRM.UnitTest", "ERP.HRM.UnitTest\ERP.HRM.UnitTest.csproj", "{5127C5F3-8408-441A-B743-13F5F795AD3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.HRM.Utility", "ERP.HRM.Utility\ERP.HRM.Utility.csproj", "{E1ADEA3E-5ED8-40F5-A670-51BFD5EAD1BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.Utility", "ERP.Utility\ERP.Utility.csproj", "{F9B8A4D7-F619-4F53-977F-4B9F8F66E099}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "hrm-client", "ClientApplications\hrm-client\", "{BAFD2ED6-693C-40CC-A7AC-9CE6305A2ADB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52690"
+		Debug.AspNetCompiler.PhysicalPath = "ClientApplications\hrm-client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52690\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52690"
+		Release.AspNetCompiler.PhysicalPath = "ClientApplications\hrm-client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52690\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52690"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52690"
+		Debug.AspNetCompiler.PhysicalPath = "ClientApplications\hrm-client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52690\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52690"
+		Release.AspNetCompiler.PhysicalPath = "ClientApplications\hrm-client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52690\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52690"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52690"
+		Debug.AspNetCompiler.PhysicalPath = "ClientApplications\hrm-client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52690\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52690"
+		Release.AspNetCompiler.PhysicalPath = "ClientApplications\hrm-client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52690\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52690"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52690"
+		Debug.AspNetCompiler.PhysicalPath = "ClientApplications\hrm-client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52690\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52690"
+		Release.AspNetCompiler.PhysicalPath = "ClientApplications\hrm-client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52690\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52690"
+		SlnRelativePath = "ClientApplications\hrm-client\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientApplications", "ClientApplications", "{0992FC03-031A-4584-9AB5-D1205672591D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ERP.Entities", "ERP.Entities\ERP.Entities.csproj", "{225BDC17-6AB4-4914-994C-6B13F3D1AE21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ERP.HRM.CORE", "ERP.HRM.CORE\ERP.HRM.CORE.csproj", "{01115C6D-78C4-440C-9DDD-2424EB85E22A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B59D060-14F2-4143-AFF9-7201FDE28F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B59D060-14F2-4143-AFF9-7201FDE28F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B59D060-14F2-4143-AFF9-7201FDE28F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B59D060-14F2-4143-AFF9-7201FDE28F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0734B2BA-8699-4084-AEE1-F0C7603825DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0734B2BA-8699-4084-AEE1-F0C7603825DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0734B2BA-8699-4084-AEE1-F0C7603825DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0734B2BA-8699-4084-AEE1-F0C7603825DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85DB573-3C95-4BEA-BF61-396826DB443E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85DB573-3C95-4BEA-BF61-396826DB443E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85DB573-3C95-4BEA-BF61-396826DB443E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85DB573-3C95-4BEA-BF61-396826DB443E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{093E44C4-E44B-4FCB-9B35-157AC2D182AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{093E44C4-E44B-4FCB-9B35-157AC2D182AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{093E44C4-E44B-4FCB-9B35-157AC2D182AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{093E44C4-E44B-4FCB-9B35-157AC2D182AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C596F5FF-8DE9-43D2-A676-E42CE513CC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C596F5FF-8DE9-43D2-A676-E42CE513CC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C596F5FF-8DE9-43D2-A676-E42CE513CC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C596F5FF-8DE9-43D2-A676-E42CE513CC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B20F3F-23D8-40A9-A1B5-F13DDCC3F101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B20F3F-23D8-40A9-A1B5-F13DDCC3F101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B20F3F-23D8-40A9-A1B5-F13DDCC3F101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B20F3F-23D8-40A9-A1B5-F13DDCC3F101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5127C5F3-8408-441A-B743-13F5F795AD3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5127C5F3-8408-441A-B743-13F5F795AD3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5127C5F3-8408-441A-B743-13F5F795AD3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5127C5F3-8408-441A-B743-13F5F795AD3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1ADEA3E-5ED8-40F5-A670-51BFD5EAD1BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1ADEA3E-5ED8-40F5-A670-51BFD5EAD1BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1ADEA3E-5ED8-40F5-A670-51BFD5EAD1BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1ADEA3E-5ED8-40F5-A670-51BFD5EAD1BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B8A4D7-F619-4F53-977F-4B9F8F66E099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B8A4D7-F619-4F53-977F-4B9F8F66E099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B8A4D7-F619-4F53-977F-4B9F8F66E099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B8A4D7-F619-4F53-977F-4B9F8F66E099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFD2ED6-693C-40CC-A7AC-9CE6305A2ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFD2ED6-693C-40CC-A7AC-9CE6305A2ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFD2ED6-693C-40CC-A7AC-9CE6305A2ADB}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFD2ED6-693C-40CC-A7AC-9CE6305A2ADB}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{225BDC17-6AB4-4914-994C-6B13F3D1AE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225BDC17-6AB4-4914-994C-6B13F3D1AE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225BDC17-6AB4-4914-994C-6B13F3D1AE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225BDC17-6AB4-4914-994C-6B13F3D1AE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01115C6D-78C4-440C-9DDD-2424EB85E22A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01115C6D-78C4-440C-9DDD-2424EB85E22A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01115C6D-78C4-440C-9DDD-2424EB85E22A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01115C6D-78C4-440C-9DDD-2424EB85E22A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B59D060-14F2-4143-AFF9-7201FDE28F3D} = {813FD02C-134E-4A6A-83F0-CB44054B86F7}
+		{0734B2BA-8699-4084-AEE1-F0C7603825DF} = {813FD02C-134E-4A6A-83F0-CB44054B86F7}
+		{A85DB573-3C95-4BEA-BF61-396826DB443E} = {B77D5277-772E-488B-8D35-A7D3B2C8BCB1}
+		{093E44C4-E44B-4FCB-9B35-157AC2D182AE} = {EDF98FEA-5262-4662-867F-6C99C059C30F}
+		{C596F5FF-8DE9-43D2-A676-E42CE513CC24} = {EDF98FEA-5262-4662-867F-6C99C059C30F}
+		{36B20F3F-23D8-40A9-A1B5-F13DDCC3F101} = {2C0C5D23-6F7F-42F5-AE5E-32ED073121CD}
+		{5127C5F3-8408-441A-B743-13F5F795AD3A} = {1A17E2A8-83E8-48F2-946A-43F2B5EA6792}
+		{E1ADEA3E-5ED8-40F5-A670-51BFD5EAD1BE} = {EDF98FEA-5262-4662-867F-6C99C059C30F}
+		{F9B8A4D7-F619-4F53-977F-4B9F8F66E099} = {EDF98FEA-5262-4662-867F-6C99C059C30F}
+		{BAFD2ED6-693C-40CC-A7AC-9CE6305A2ADB} = {0992FC03-031A-4584-9AB5-D1205672591D}
+		{225BDC17-6AB4-4914-994C-6B13F3D1AE21} = {B77D5277-772E-488B-8D35-A7D3B2C8BCB1}
+		{01115C6D-78C4-440C-9DDD-2424EB85E22A} = {2C0C5D23-6F7F-42F5-AE5E-32ED073121CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C90BED40-BFC4-45A6-84A2-DF7BBE210F8C}
+	EndGlobalSection
+EndGlobal
