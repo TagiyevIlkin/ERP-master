@@ -18,4 +18,11 @@
     <Folder Include="wwwroot\Tab\js\" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.HRM.Services\ERP.HRM.Services.csproj" />
+    <ProjectReference Include="..\ERP.HRM.Utility\ERP.HRM.Utility.csproj" />
+    <ProjectReference Include="..\ERP.Repositories.Interfaces\ERP.Repositories.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
